@@ -17,40 +17,41 @@ public class Main
 		// Part B
 		System.out.println("Problem 1\n");
 
-		double lenWid;
-		double len;
-		double wid;
-		Rectangle r1;
-		Rectangle r2;
+		double lenWid = (2.6);
+		double len = (10.4);
+		double wid = (28.9);
+		Rectangle r1 = new Rectangle (2.6);
+		Rectangle r2 = new Rectangle (10.4, 28.9);
 
-    System.out.println("Type a number for length and width:");
-		lenWid = sc.nextDouble();
+
+    // System.out.println("Type a number for length and width:");
+		// lenWid = scanner.nextDouble();
 		
-		System.out.println("Type a length:");
-		len = sc.nextDouble();
+		// System.out.println("Type a length:");
+		// len = sc.nextDouble();
 
-		System.out.println("Type a width:");
-		wid = sc.nextDouble();
+		// System.out.println("Type a width:");
+		// wid = sc.nextDouble();
 
-		r1 = new Rectangle(lenWid);
-		r2 = new Rectangle(len, wid);
+		// r1 = new Rectangle(lenWid);
+		// r2 = new Rectangle(len, wid);
 
-		System.out.println(r1.toString() + "\n" + r2.toString());
+		// System.out.println(r1.toString() + "\n" + r2.toString());
 
-		// Part C
-		System.out.println("\nProblem 3\n");
+		// // Part C
+		// System.out.println("\nProblem 3\n");
 
-		double side;
-		RegularPolygon rp1;
-		RegularPolygon rp2;
+		// double side;
+		// RegularPolygon rp1;
+		// RegularPolygon rp2;
 		
-		System.out.println("Type a side length:");
-		side = sc.nextDouble();
+		// System.out.println("Type a side length:");
+		// side = sc.nextDouble();
 
-		rp1 = new RegularPolygon(side);
-		rp2 = new RegularPolygon(4, side);
+		// rp1 = new RegularPolygon(side);
+		// rp2 = new RegularPolygon(4, side);
 
-		System.out.println(rp1.toString() + "\n" + rp2.toString());
+		// System.out.println(rp1.toString() + "\n" + rp2.toString());
 
 
 
