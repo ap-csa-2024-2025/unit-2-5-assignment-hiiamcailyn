@@ -22,21 +22,24 @@ public class Main
 		double wid = (28.9);
 		Rectangle r1 = new Rectangle (2.6);
 		Rectangle r2 = new Rectangle (10.4, 28.9);
+    
 
-
-    // System.out.println("Type a number for length and width:");
+    System.out.println(lenWid);
 		// lenWid = scanner.nextDouble();
 		
-		// System.out.println("Type a length:");
+		System.out.println(len);
 		// len = sc.nextDouble();
 
-		// System.out.println("Type a width:");
+		System.out.println(wid);
 		// wid = sc.nextDouble();
 
 		// r1 = new Rectangle(lenWid);
 		// r2 = new Rectangle(len, wid);
+    System.out.println(r1); 
+    System.out.println(r2); 
 
-		// System.out.println(r1.toString() + "\n" + r2.toString());
+
+		System.out.println(r1.toString() + "\n" + r2.toString());
 
 		// // Part C
 		// System.out.println("\nProblem 3\n");
