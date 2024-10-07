@@ -28,6 +28,7 @@ public class Circle
     }
 
     /**
+     * JBJBJ
      * Sets the radius of the circle to the specified radius.
      *
      * @param  rad  the proposed new radius. This should be a positive number.
